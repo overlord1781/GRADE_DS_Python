@@ -1,0 +1,111 @@
+{
+	"info": {
+		"_postman_id": "a14ede9e-00be-4d3c-8591-0b5f09915cf4",
+		"name": "Pushka",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get regions (locales)",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ2ZXIiOjEsInR5cCI6IkpXVCIsInNidCI6ImFjY2VzcyIsImFsZyI6IlJTMjU2In0.eyJuYmYiOjE2NDA2MTIyNTIsInNjb3BlIjoib3BlbmlkIGh0dHA6XC9cL2VzaWEuZ29zdXNsdWdpLnJ1XC91c3JfdHJtP21vZGU9dyZvaWQ9MTAxNDMyNjc3MyBodHRwOlwvXC9lc2lhLmdvc3VzbHVnaS5ydVwvdXNyX2luZj9tb2RlPXcmb2lkPTEwMTQzMjY3NzMgaHR0cDpcL1wvZXNpYS5nb3N1c2x1Z2kucnVcL3Vzcl9zZWM_bW9kZT13Jm9pZD0xMDE0MzI2NzczIiwiaXNzIjoiaHR0cDpcL1wvZXNpYS5nb3N1c2x1Z2kucnVcLyIsInVybjplc2lhOnNpZCI6ImVlYTI1OTYzLTgzNTctNDc3NS05ZWQyLTI1ZDRlNTQyYjQ1YSIsInVybjplc2lhOnNial9pZCI6MTAxNDMyNjc3MywiZXhwIjoxNjQwNjIzMDUyLCJpYXQiOjE2NDA2MTIyNTIsImNsaWVudF9pZCI6IlBHVSJ9.P_dol2KMV3Qj-D9r7sz7cuw_m3h0wsphHIYMuVmC--HN_IQM7AOy4qAo_huiztgNLMM3KSVDdp4E2KKY_dogZrMr2_ra5TulU_V06mbZmAKCRDO6Kae85N1ButRMKVZuOs4koCPvLnJTt61BWst_KRQu3PGuBSpXnMdv8UE2QNZ8PB9M3I-dpIJK6eeUfgM-r9CLooCaMvRUfXLnJB1opmecZMf_9A-VegpubL0EjEb5CytLXAwYlNvH5gYdcoaoGZG5y3yWuETwE_TROPxY2IdWQDkFCrIwEA-UA9HvWRSx4Pzf0ox3W56hwmrvD7eAgXRyXIKzFWgNJwa0Qe-8cg",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://pushka.gosuslugi.ru/api/v1/locales/",
+					"protocol": "https",
+					"host": [
+						"pushka",
+						"gosuslugi",
+						"ru"
+					],
+					"path": [
+						"api",
+						"v1",
+						"locales",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Places",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ2ZXIiOjEsInR5cCI6IkpXVCIsInNidCI6ImFjY2VzcyIsImFsZyI6IlJTMjU2In0.eyJuYmYiOjE2NDA2MTIyNTIsInNjb3BlIjoib3BlbmlkIGh0dHA6XC9cL2VzaWEuZ29zdXNsdWdpLnJ1XC91c3JfdHJtP21vZGU9dyZvaWQ9MTAxNDMyNjc3MyBodHRwOlwvXC9lc2lhLmdvc3VzbHVnaS5ydVwvdXNyX2luZj9tb2RlPXcmb2lkPTEwMTQzMjY3NzMgaHR0cDpcL1wvZXNpYS5nb3N1c2x1Z2kucnVcL3Vzcl9zZWM_bW9kZT13Jm9pZD0xMDE0MzI2NzczIiwiaXNzIjoiaHR0cDpcL1wvZXNpYS5nb3N1c2x1Z2kucnVcLyIsInVybjplc2lhOnNpZCI6ImVlYTI1OTYzLTgzNTctNDc3NS05ZWQyLTI1ZDRlNTQyYjQ1YSIsInVybjplc2lhOnNial9pZCI6MTAxNDMyNjc3MywiZXhwIjoxNjQwNjIzMDUyLCJpYXQiOjE2NDA2MTIyNTIsImNsaWVudF9pZCI6IlBHVSJ9.P_dol2KMV3Qj-D9r7sz7cuw_m3h0wsphHIYMuVmC--HN_IQM7AOy4qAo_huiztgNLMM3KSVDdp4E2KKY_dogZrMr2_ra5TulU_V06mbZmAKCRDO6Kae85N1ButRMKVZuOs4koCPvLnJTt61BWst_KRQu3PGuBSpXnMdv8UE2QNZ8PB9M3I-dpIJK6eeUfgM-r9CLooCaMvRUfXLnJB1opmecZMf_9A-VegpubL0EjEb5CytLXAwYlNvH5gYdcoaoGZG5y3yWuETwE_TROPxY2IdWQDkFCrIwEA-UA9HvWRSx4Pzf0ox3W56hwmrvD7eAgXRyXIKzFWgNJwa0Qe-8cg",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://pushka.gosuslugi.ru/api/v1/locales/7/places",
+					"protocol": "https",
+					"host": [
+						"pushka",
+						"gosuslugi",
+						"ru"
+					],
+					"path": [
+						"api",
+						"v1",
+						"locales",
+						"7",
+						"places"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Events",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ2ZXIiOjEsInR5cCI6IkpXVCIsInNidCI6ImFjY2VzcyIsImFsZyI6IlJTMjU2In0.eyJuYmYiOjE2NDA2MTIyNTIsInNjb3BlIjoib3BlbmlkIGh0dHA6XC9cL2VzaWEuZ29zdXNsdWdpLnJ1XC91c3JfdHJtP21vZGU9dyZvaWQ9MTAxNDMyNjc3MyBodHRwOlwvXC9lc2lhLmdvc3VzbHVnaS5ydVwvdXNyX2luZj9tb2RlPXcmb2lkPTEwMTQzMjY3NzMgaHR0cDpcL1wvZXNpYS5nb3N1c2x1Z2kucnVcL3Vzcl9zZWM_bW9kZT13Jm9pZD0xMDE0MzI2NzczIiwiaXNzIjoiaHR0cDpcL1wvZXNpYS5nb3N1c2x1Z2kucnVcLyIsInVybjplc2lhOnNpZCI6ImVlYTI1OTYzLTgzNTctNDc3NS05ZWQyLTI1ZDRlNTQyYjQ1YSIsInVybjplc2lhOnNial9pZCI6MTAxNDMyNjc3MywiZXhwIjoxNjQwNjIzMDUyLCJpYXQiOjE2NDA2MTIyNTIsImNsaWVudF9pZCI6IlBHVSJ9.P_dol2KMV3Qj-D9r7sz7cuw_m3h0wsphHIYMuVmC--HN_IQM7AOy4qAo_huiztgNLMM3KSVDdp4E2KKY_dogZrMr2_ra5TulU_V06mbZmAKCRDO6Kae85N1ButRMKVZuOs4koCPvLnJTt61BWst_KRQu3PGuBSpXnMdv8UE2QNZ8PB9M3I-dpIJK6eeUfgM-r9CLooCaMvRUfXLnJB1opmecZMf_9A-VegpubL0EjEb5CytLXAwYlNvH5gYdcoaoGZG5y3yWuETwE_TROPxY2IdWQDkFCrIwEA-UA9HvWRSx4Pzf0ox3W56hwmrvD7eAgXRyXIKzFWgNJwa0Qe-8cg",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://pushka.gosuslugi.ru/api/v1/places/2914/events/",
+					"protocol": "https",
+					"host": [
+						"pushka",
+						"gosuslugi",
+						"ru"
+					],
+					"path": [
+						"api",
+						"v1",
+						"places",
+						"2914",
+						"events",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
